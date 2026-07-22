@@ -2,7 +2,7 @@
 
 **DecodeLabs Data Analytics Internship**
 
-## 📌 Overview
+##  Overview
 This project applies core SQL techniques — `SELECT`, `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`, and aggregate functions (`COUNT`, `SUM`, `AVG`) — to extract actionable business insights from a 1,200-row e-commerce orders dataset. The data is loaded into a real **SQL Server** database via `BULK INSERT` and queried directly in **SQL Server Management Studio (SSMS)**, following the **Input → Process → Output (IPO)** framework taught in this milestone.
 
 This builds on the cleaned/explored dataset from Projects 1 and 2, moving from *cleaning* and *exploring* the data to *querying it for specific business answers* using T-SQL.
@@ -47,5 +47,5 @@ This builds on the cleaned/explored dataset from Projects 1 and 2, moving from *
 ##  Tools Used
 - SQL Server Management Studio (SSMS), T-SQL
 
-## 👤 Author
+##  Author
 Zohair — Data Analytics Intern, DecodeLabs (Batch 2026)
