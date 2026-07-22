@@ -1,13 +1,13 @@
 # Project 3: SQL Data Analysis — E-Commerce Orders
 
-**DecodeLabs Data Analytics Internship — Batch 2026**
+**DecodeLabs Data Analytics Internship**
 
 ## 📌 Overview
 This project applies core SQL techniques — `SELECT`, `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`, and aggregate functions (`COUNT`, `SUM`, `AVG`) — to extract actionable business insights from a 1,200-row e-commerce orders dataset. The data is loaded into a real **SQL Server** database via `BULK INSERT` and queried directly in **SQL Server Management Studio (SSMS)**, following the **Input → Process → Output (IPO)** framework taught in this milestone.
 
 This builds on the cleaned/explored dataset from Projects 1 and 2, moving from *cleaning* and *exploring* the data to *querying it for specific business answers* using T-SQL.
 
-## 🎯 Objectives
+##  Objectives
 - Load a flat-file dataset into a SQL Server database using `BULK INSERT`
 - Write filtering and sorting queries (`WHERE`, `ORDER BY`)
 - Perform aggregations (`COUNT`, `SUM`, `AVG`)
@@ -15,14 +15,14 @@ This builds on the cleaned/explored dataset from Projects 1 and 2, moving from *
 - Filter aggregated groups (`HAVING`)
 - Translate SQL output into a non-technical, business-facing executive summary
 
-## 🗂️ Repository Structure
+## Repository Structure
 ```
 ├── Project3_SQL_Data_Analysis.sql     # Main T-SQL script — schema, data load, all queries (IPO structure)
 ├── ecommerce_orders.csv               # Source dataset (1,200 orders, 14 columns)
 └── README.md
 ```
 
-## ▶️ How to Run
+##  How to Run
 1. Save `ecommerce_orders.csv` somewhere your SQL Server instance can read (e.g. `C:\Data\ecommerce_orders.csv`).
 2. Open `Project3_SQL_Data_Analysis.sql` in SSMS.
 3. Update the file path in the `BULK INSERT` statement (Section 1.2) to match where you saved the CSV.
