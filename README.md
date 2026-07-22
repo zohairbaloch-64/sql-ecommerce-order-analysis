@@ -29,7 +29,7 @@ This builds on the cleaned/explored dataset from Projects 1 and 2, moving from *
 4. Execute the script (F5). It creates the `DecodeLabs_Project3` database, builds the `orders` table, loads all 1,200 rows, and runs every analysis query in sequence.
 5. If `BULK INSERT` throws a permissions error, use the built-in GUI fallback noted in the script: right-click the database → **Tasks → Import Flat File**.
 
-## 🔍 Key Analyses Performed
+##  Key Analyses Performed
 1. **Data loading & schema inspection** — CSV → SQL Server table via `BULK INSERT`, `INFORMATION_SCHEMA.COLUMNS`
 2. **Filtering & sorting** — high-value orders, cancelled/returned orders, coupon-driven orders
 3. **Aggregation fundamentals** — total orders, total revenue, average order value; a live demonstration of how `COUNT(*)` vs `COUNT(column)`/`AVG()` handle NULLs differently
