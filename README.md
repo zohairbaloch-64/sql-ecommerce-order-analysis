@@ -37,14 +37,14 @@ This builds on the cleaned/explored dataset from Projects 1 and 2, moving from *
 5. **HAVING** — isolating products that are both high-volume *and* above-average order value
 6. **Advanced queries** — top 10 customers by spend, each product's percentage contribution to total revenue
 
-## 💡 Key Business Insights
+##  Key Business Insights
 - **Cancelled + Returned orders make up 41.4%** of all orders (~₹5.2L in reversed/lost revenue) — the biggest opportunity area in the dataset.
 - Revenue is **evenly spread across the product catalog** — no single product dominates (each is roughly 12–15% of total revenue).
 - **Laptop, Chair, and Printer** are the only products that clear both a volume bar (>170 orders) and an above-average order-value bar.
 - The customer base is **almost entirely one-time buyers** — a clear whitespace for a retention/loyalty program.
 - Coupon codes produce only a **marginal lift** in order value; `WINTER15` actually underperforms the no-coupon baseline.
 
-## 🛠️ Tools Used
+##  Tools Used
 - SQL Server Management Studio (SSMS), T-SQL
 
 ## 👤 Author
